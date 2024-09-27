@@ -1,0 +1,1 @@
+// For testing all the components of the Trash Can togther
