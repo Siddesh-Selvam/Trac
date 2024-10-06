@@ -8,7 +8,7 @@ using namespace std;
 int main() {
     // Load Haar Cascade for face detection
     CascadeClassifier face_cascade;
-    if (!face_cascade.load("/Users/pparakala/Personal/Projects/CV/haarcascade_frontalface_default.xml")) {
+    if (!face_cascade.load("/Users/pparakala/Personal/Projects/Trac/CV/haarcascade_frontalface_default.xml")) {
         cout << "Error loading cascade file!" << endl;
         return -1;
     }
